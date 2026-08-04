@@ -1,5 +1,6 @@
 import Navigation from "./components/layout/Navigation";
 import Hero from "./components/Hero/Hero";
+import BlissExperience from "./components/BlissExperience/BlissExperience";
 
 /**
  * Temporary, unstyled placeholder so the Navigation module has a real DOM
@@ -31,6 +32,7 @@ export default function App() {
       <Navigation />
       <main>
         <Hero />
+        <BlissExperience />
         <SectionPlaceholder id="about" title="Meet the Founder" />
         <SectionPlaceholder id="services" title="Services" />
         <SectionPlaceholder id="pricing" title="Pricing" />
