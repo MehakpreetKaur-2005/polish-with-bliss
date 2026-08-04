@@ -124,7 +124,9 @@ Polish with Bliss Salon Website
     The Hero Module shall:
     -Display a full-screen (100vh) hero banner.
     -Utilize a full-width responsive layout across mobile, tablet, laptop, and desktop devices.
-    -Display a high-quality background image representing the salon's services and ambience.
+    -Display a rotating background image slideshow representing the salon's services and ambience (salon ambience, facials, hair spa, nail care, waxing/threading).
+    -Automatically crossfade between background slides at a fixed time interval.
+    -Apply a subtle background zoom (Ken Burns) animation to the active slide to enhance the visual experience.
     -Apply a semi-transparent brand-themed overlay to improve content readability.
     -Display the primary hero heading:
         YOUR BEAUTY.
@@ -135,7 +137,7 @@ Polish with Bliss Salon Website
     -Center all hero content both vertically and horizontally within the hero banner.
     -Include subtle entrance animations for the hero heading and CTA buttons.
     -Include hover animations for interactive buttons.
-    -Apply a subtle background zoom animation to enhance the visual experience
+    -Disable the slideshow crossfade and zoom animation when the user has a reduced-motion preference enabled.
 
     Future Enhancements:
     The following features are outside the scope of MVP (v1.0) and are planned for future releases:
