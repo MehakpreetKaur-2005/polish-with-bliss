@@ -4,6 +4,7 @@ import BlissExperience from "./components/BlissExperience/BlissExperience";
 import Services from "./components/Services/Services";
 import Pricing from "./components/Pricing/Pricing";
 import Founder from "./components/Founder/Founder";
+import Appointment from "./components/Appointment/Appointment";
 
 /**
  * Temporary, unstyled placeholder so the Navigation module has a real DOM
@@ -39,8 +40,8 @@ export default function App() {
         <Services />
         <Pricing />
         <Founder />
+        <Appointment />
         <SectionPlaceholder id="contact" title="Contact" />
-        <SectionPlaceholder id="appointment" title="Appointment Request" />
       </main>
     </>
   );
