@@ -21,6 +21,21 @@ export default {
       borderRadius: {
         DEFAULT: "8px",
       },
+      keyframes: {
+        kenburns: {
+          "0%": { transform: "scale(1)" },
+          "100%": { transform: "scale(1.08)" },
+        },
+        "fade-up": {
+          "0%": { opacity: "0", transform: "translateY(16px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+      },
+      animation: {
+        // Duration matches SLIDE_INTERVAL_MS in src/data/heroSlides.ts.
+        kenburns: "kenburns 6s ease-out forwards",
+        "fade-up": "fade-up 0.8s ease-out forwards",
+      },
     },
   },
   plugins: [],

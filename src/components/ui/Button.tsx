@@ -1,6 +1,6 @@
 import type { AnchorHTMLAttributes, ButtonHTMLAttributes, ReactNode } from "react";
 
-type ButtonVariant = "primary" | "secondary";
+type ButtonVariant = "primary" | "secondary" | "outline-light";
 
 interface BaseButtonProps {
   variant?: ButtonVariant;
@@ -25,6 +25,8 @@ const VARIANT_STYLES: Record<ButtonVariant, string> = {
     "bg-terracotta text-white hover:opacity-90 hover:-translate-y-0.5",
   secondary:
     "border border-rose-gold text-espresso hover:bg-rose-gold/10 hover:-translate-y-0.5",
+  "outline-light":
+    "border border-white/70 bg-white/10 text-white backdrop-blur-sm hover:bg-white/20 hover:-translate-y-0.5",
 };
 
 const BASE_STYLES =
