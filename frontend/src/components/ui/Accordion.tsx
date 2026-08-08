@@ -40,9 +40,8 @@ export default function Accordion({ items }: AccordionProps) {
                 <ChevronDown
                   size={20}
                   aria-hidden="true"
-                  className={`shrink-0 text-rose-gold transition-transform duration-300 ${
-                    isOpen ? "rotate-180" : ""
-                  }`}
+                  className={`shrink-0 text-rose-gold transition-transform duration-300 ${isOpen ? "rotate-180" : ""
+                    }`}
                 />
               </button>
             </h3>
@@ -50,9 +49,8 @@ export default function Accordion({ items }: AccordionProps) {
               id={panelId}
               role="region"
               aria-labelledby={triggerId}
-              className={`grid transition-all duration-300 ease-in-out motion-reduce:transition-none ${
-                isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
-              }`}
+              className={`grid transition-all duration-300 ease-in-out motion-reduce:transition-none ${isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+                }`}
             >
               <div className="overflow-hidden">
                 <div className="px-6 pb-5">{item.content}</div>
